@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website - Login/Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="login.html" class="active">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Login or Create an Account</h1>
+        <div class="auth-container">
+            <div class="auth-form login-form">
+                <h2>Login</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="login-userid">User ID</label>
+                        <input type="text" id="login-userid" name="userid" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Login</button>
+                </form>
+            </div>
+            <div class="auth-form signup-form">
+                <h2>Sign Up</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-dob">Date of Birth</label>
+                        <input type="date" id="signup-dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-contact">Contact Number</label>
+                        <input type="tel" id="signup-contact" name="contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-userid">User ID</label>
+                        <input type="text" id="signup-userid" name="userid" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-repassword">Re-type Password</label>
+                        <input type="password" id="signup-repassword" name="repassword" required>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
